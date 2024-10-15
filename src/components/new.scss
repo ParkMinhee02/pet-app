@@ -1,0 +1,49 @@
+.newWrap {
+	padding: 50px 0;
+	h2 {
+		text-align: center;
+	}
+	p {
+		text-align: center;
+		color: #bbb;
+		font-size: 14px;
+	}
+	.newSlider {
+		padding: 20px 50px;
+		.newboxSwiper {
+			display: flex;
+			padding: 30px 0 50px;
+			.newList {
+				margin-right: 10px;
+				text-align: center;
+				a {
+					display: block;
+					.img {
+						width: 100%;
+						height: 500px;
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+					}
+					.text {
+						p {
+							padding: 20px 0 5px;
+							color: #333;
+							font-size: 18px;
+							font-weight: bold;
+						}
+					}
+					.add {
+						p {
+							padding: 5px 0 20px;
+							color: #777;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
