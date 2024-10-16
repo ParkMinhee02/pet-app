@@ -50,9 +50,14 @@
 	},
 	{
 	   "id": 9,
-	   "imageUrl":"/img/dog4.jpg",
+	   "imageUrl":"/img/dog04.jpg",
+	   "description":"강아지",
+	   "category":"dog"
+	},
+	{
+	   "id": 10,
+	   "imageUrl":"/img/dog05.jpg",
 	   "description":"강아지",
 	   "category":"dog"
 	}
- 
  ]
