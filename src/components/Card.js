@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Card = ({data, i}) => {
 	return (
 		<div className="freshList">
-			<Link to=''>
+			<Link to={`/about/${data.id}`}>
 				<div className="imgBox">
 					<img src={process.env.PUBLIC_URL+data.img} alt={data.title} />
 				</div>

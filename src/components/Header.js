@@ -7,7 +7,7 @@ const Header = () => {
 		<div className='headerWrap'>
 			<div className="header-area">
 				<div className="logo">
-					<Link to='/'><img src={process.env.PUBLIC_URL+"./img/logo.png"} alt="" /></Link>
+					<Link to='/'><img src={process.env.PUBLIC_URL+"/img/logo.png"} alt="" /></Link>
 				</div>
 				<div className="nav">
 					<ul className='signupandlogin'>

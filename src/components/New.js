@@ -30,7 +30,7 @@ const New = () => {
 					{
 						adddata.map((data1, i) => {
 							return (
-								<SwiperSlide>
+								<SwiperSlide key={i}>
 									<NewCard data={data1} key={i} i={i} />
 								</SwiperSlide>
 							);
